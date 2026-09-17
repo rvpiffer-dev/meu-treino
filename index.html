@@ -1,1 +1,25 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#05090c"><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="css/app.css"><title>Meu Treino</title></head><body><div id="app"></div><nav class="bottom"><button data-view="home" class="active">♙<span>Treino</span></button><button data-view="history">◷<span>Histórico</span></button><button data-view="progress">▥<span>Evolução</span></button><button data-view="more">•••<span>Mais</span></button></nav><script src="js/workout.js"></script><script src="js/app.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070b0e">
+<title>Meu Treino</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#070b0e;color:#fff;font-family:system-ui,-apple-system,Segoe UI,sans-serif}.app{max-width:520px;margin:auto;padding:24px 16px 42px}header{display:flex;justify-content:space-between;align-items:center}h1{font-size:34px;margin:0;font-weight:900;letter-spacing:-1px}.sub{color:#9aa4aa;font-size:11px;letter-spacing:1.6px;margin:4px 0 24px}.gear{background:#10171b;border:1px solid #29343a;color:#fff;border-radius:15px;width:48px;height:48px;font-size:22px}.days{display:grid;grid-template-columns:repeat(5,1fr);gap:9px;margin-bottom:18px}.days button{height:52px;border:1px solid #2b373e;background:#0d1418;color:#fff;border-radius:14px;font-size:18px;font-weight:800}.days .active{background:#ff383d;border-color:#ff383d}.hero{min-height:350px;border:1px solid #28343a;border-radius:26px;padding:25px;position:relative;overflow:hidden;background:radial-gradient(circle at 72% 35%,#5a2022,#141b20 37%,#0b1115 70%);display:flex;align-items:flex-end}.body{position:absolute;right:8px;top:28px;width:210px;height:280px}.head{position:absolute;left:82px;width:48px;height:55px;border-radius:50%;background:#566168}.torso{position:absolute;top:52px;left:35px;width:145px;height:220px;background:linear-gradient(#4d585f,#252e33);clip-path:polygon(28% 0,72% 0,100% 28%,75% 48%,66% 100%,34% 100%,25% 48%,0 28%)}.pec{position:absolute;top:86px;width:59px;height:55px;background:#ff3b3f;z-index:2}.pec.l{left:45px;border-radius:45% 18% 45% 48%}.pec.r{right:45px;border-radius:18% 45% 48% 45%}.copy{position:relative;z-index:3;text-shadow:0 2px 12px #000}.copy small{font-weight:800}.copy h2{font-size:44px;line-height:.9;margin:7px 0 10px}.copy p{margin:0;color:#d0d5d7}.start{width:100%;height:66px;border:0;border-radius:18px;background:#ff383d;color:#fff;font-size:19px;font-weight:850;margin:17px 0 28px}.label{font-size:13px;color:#9ba5aa;letter-spacing:1.4px}.card{height:72px;border:1px solid #28343a;border-radius:18px;margin:9px 0;background:#0d1418;display:flex;align-items:center;padding:10px 15px;gap:14px}.badge{width:44px;height:44px;border-radius:13px;background:#211619;color:#ff4a4e;display:grid;place-items:center;font-weight:900}.card strong{font-size:17px}.card span{margin-left:auto;color:#a6afb4;font-size:25px}.status{margin-top:22px;padding:13px;border-radius:14px;background:#102019;color:#71e29b;font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+<main class="app">
+<header><div><h1>Meu Treino</h1><p class="sub">DISCIPLINA HOJE · RESULTADOS SEMPRE</p></div><button class="gear">⚙</button></header>
+<nav class="days"><button class="active">A</button><button>B</button><button>C</button><button>D</button><button>E</button></nav>
+<section class="hero"><div class="body"><div class="head"></div><div class="torso"></div><div class="pec l"></div><div class="pec r"></div></div><div class="copy"><small>TREINO A</small><h2>PEITO</h2><p>6 exercícios · 4 séries</p></div></section>
+<button class="start">Iniciar treino →</button>
+<h3 class="label">OUTROS TREINOS</h3>
+<div class="card"><div class="badge">B</div><strong>Costas</strong><span>›</span></div>
+<div class="card"><div class="badge">C</div><strong>Pernas</strong><span>›</span></div>
+<div class="card"><div class="badge">D</div><strong>Ombros</strong><span>›</span></div>
+<div class="card"><div class="badge">E</div><strong>Braços</strong><span>›</span></div>
+<div class="status">✓ Versão estável carregada</div>
+</main>
+</body></html>
