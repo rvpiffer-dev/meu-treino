@@ -161,7 +161,7 @@ body{letter-spacing:-.01em}
 .exercise.active{border-color:var(--red);box-shadow:0 0 0 1px var(--red),0 0 20px rgba(255,32,40,.1)}
 .exercise strong{font-size:15px;line-height:1.22}
 .exercise small{color:#b6c1c5}
-.phthumb{border:1px solid #263a43;background:radial-gradient(circle at 50% 35%,#21333b,#0c191f 70%);color:#73838a}
+.phthumb{border:1px solid #263a43;background:radial-gradient(circle at 50% 35%,#21333b,#0c191f 70%);color:#73838a}.photoTools{display:flex;gap:8px;margin:9px 0 14px}.photoAction{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 12px;border:1px solid var(--line);border-radius:9px;background:#0b1a20;color:#f4f7f8;font-size:12px;font-weight:700;cursor:pointer}.photoAction.secondary{background:#13252c;color:#c0cbd0}.photoTools input{display:none}.exerciseThumb{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}.photo .exercisePhoto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 .panel,.historyCard,.setting,.metric div{border-color:var(--line);background:linear-gradient(180deg,#08161b,#061115);border-radius:11px}
 .seg{gap:5px}
 .seg button{border-radius:8px;background:#09171c}
